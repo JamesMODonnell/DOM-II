@@ -35,12 +35,12 @@ resize.addEventListener("click", function (event) {
   });
 const scroll = document.querySelector("#content-section");
 scroll.addEventListener("click", function (event) {
-console.log("the better way to add functionality");
+    scrollTo 
   });
 const select = document.querySelector("#content-destination");
-launchButton.addEventListener("click", function (event) {
-    console.log("the better way to add functionality");
+select.addEventListener("click", function (event) {
+    event.target.background = "green")
   });
 const dblclick = document.querySelector("#content-destination"); 
-launchButton.addEventListener("click", function (event) {
-    console.log("the better way to add functionality");
+dblclick.addEventListener("click", function (event) {
+    console.log("i've been double clicked");
